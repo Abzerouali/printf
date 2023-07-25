@@ -1,6 +1,5 @@
 #ifdef printf_h
 #define printf_h
-
 #include <stdarg.h>
 #include <unistd.h>
 #include <stddef.h>

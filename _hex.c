@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdarg.h>
 /**
 *_hex_lower - %x handle
 *@args: List of arguments
