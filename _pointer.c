@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdarg.h>
+
 /**
 * _pointer - p handle
 * @args: args list

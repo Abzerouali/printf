@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdarg.h>
+
 /**
 * _binary - b handle
 * @args: Args list

@@ -42,7 +42,7 @@ int _printf(const char *format, ...)
 			count += _putchar(*format);
 		}
 		format++;
-	}	
+	}
 	va_end(args);
 	return (count);
 }

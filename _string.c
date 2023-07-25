@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdarg.h>
+
 /**
 * _string - s handle
 * @args: The argument list to get the string from

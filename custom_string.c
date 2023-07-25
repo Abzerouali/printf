@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdarg.h>
+
 /**
 * _custom_S - s handle
 * @args: args list

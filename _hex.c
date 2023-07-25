@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdarg.h>
+
 /**
 *_hex_lower - %x handle
 *@args: List of arguments
@@ -12,6 +12,7 @@ int _hex_lower(va_list args, char flag, char length)
 	unsigned long int num_l;
 	unsigned short int num_h;
 	unsigned int num;
+
 	if (length == 'l')
 	{
 		num_l = va_arg(args, unsigned long int);
@@ -29,12 +30,12 @@ int _hex_lower(va_list args, char flag, char length)
 	}
 }
 /**
-*_hex_lower - %x handle
+*_hex_upper - %x handle
 *@args: List of arguments
 *@flag: The flag character
 *@length: The length modifier
 *Return: num char printed
-*/ 
+*/
 int _hex_upper(va_list args, char flag, char length)
 {
 	unsigned long int num_l;
@@ -118,7 +119,7 @@ int print_long_hex(unsigned long int num, int upper, char flag)
 *@upper: 0 for lowercase letters, 1 for uppercase letters
 *@flag: The flag character
 *Return: number of char printed
-*/ 
+*/
 int print_short_hex(unsigned short int num, int upper, char flag)
 {
 	unsigned short int i = num;
